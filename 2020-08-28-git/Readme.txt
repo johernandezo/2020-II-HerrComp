@@ -1,2 +1,2 @@
 Hola buenos dias
- Mi nombre es jose david gg
+ Mi nombre es jose david
