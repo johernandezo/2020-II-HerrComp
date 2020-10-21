@@ -1,0 +1,37 @@
+
+
+*******************************************************************************
+Tue Oct 20 02:45:33 2020
+
+
+FIT:    data read from 'datos-sin-O3.txt'
+        format = z
+        #datapoints = 6
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*x**b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 4.4625902678e+04   0.00e+00  3.41e+02    1.000000e+00   1.000000e+00
+ 941 6.6891353068e-06  -9.12e-02  3.41e-05    7.197126e-06   2.735041e+00
+
+After 941 iterations the fit converged.
+final sum of squares of residuals : 6.68914e-06
+rel. change during last iteration : -9.12276e-07
+
+degrees of freedom    (FIT_NDF)                        : 4
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00129317
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.67228e-06
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 7.19713e-06      +/- 3.353e-08    (0.4659%)
+b               = 2.73504          +/- 0.0008753    (0.032%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -1.000  1.000 
+
