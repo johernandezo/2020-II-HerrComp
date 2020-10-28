@@ -4,7 +4,7 @@
 #include <iostream>
 #include "particle.h"
 
-const double G = -9.81;
+const double G = 0.0; // -9.81;
 const int NSTEPS = 1000;
 const double DT = 0.01;
 const double K = 253.57;
@@ -22,3 +22,6 @@ void start_integration(Particle & body, const double & dt);
 void print(Particle & body, double time);
 
 #endif // __MD_SIMUL_H_
+
+
+
